@@ -1,6 +1,11 @@
 # semantic-organizer
 
-> Automatically organize your local documents into meaningful folders — fully offline, no API keys, no cloud.
+![Python](https://img.shields.io/badge/Python-3.10+-blue?style=flat-square)
+![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)
+![Offline](https://img.shields.io/badge/100%25-Offline-teal?style=flat-square)
+![Version](https://img.shields.io/badge/version-0.1.0-gray?style=flat-square)
+
+> Automatically organize your local documents into meaningful folders — fully offline, no LLMs, no API keys, no cloud.
 
 ```bash
 pip install semantic-organizer
