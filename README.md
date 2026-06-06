@@ -5,6 +5,9 @@
 ![Offline](https://img.shields.io/badge/100%25-Offline-teal?style=flat-square)
 ![Version](https://img.shields.io/badge/version-0.1.0-gray?style=flat-square)
 
+![PyPI](https://img.shields.io/pypi/v/semantic-organizer?style=flat-square&color=blue)
+![Downloads](https://img.shields.io/pypi/dm/semantic-organizer?style=flat-square&color=green)
+
 > Automatically organize your local documents into meaningful folders — fully offline, no LLMs, no API keys, no cloud.
 
 ```bash
@@ -195,7 +198,7 @@ semantic_organizer/
 ## Development
 
 ```bash
-git clone https://github.com/yourusername/semantic-organizer
+git clone git clone https://github.com/jaysahu-ai/semantic-organizer
 cd semantic-organizer
 
 python3 -m venv venv
