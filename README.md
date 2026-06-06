@@ -4,7 +4,6 @@
 ![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)
 ![Offline](https://img.shields.io/badge/100%25-Offline-teal?style=flat-square)
 ![Version](https://img.shields.io/badge/version-0.1.0-gray?style=flat-square)
-
 ![PyPI](https://img.shields.io/pypi/v/semantic-organizer?style=flat-square&color=blue)
 ![Downloads](https://img.shields.io/pypi/dm/semantic-organizer?style=flat-square&color=green)
 
