@@ -1,0 +1,21 @@
+# Semantic Local Document Organizer — Python dependencies
+# Install with: pip install -r requirements.txt
+
+# Text extraction
+PyMuPDF>=1.24.0          # PDF extraction (imported as fitz)
+python-docx>=1.1.0       # .docx extraction
+
+# Embedding engine (design doc: all-MiniLM-L6-v2)
+sentence-transformers>=3.0.0
+
+# Clustering core (Stage 2 — coming next)
+scikit-learn>=1.4.0
+
+# Label generation (Stage 2 — coming next)
+keybert>=0.8.0
+
+# GUI (Stage 3 — coming later)
+PySide6>=6.7.0
+
+# Utilities (stdlib — no install needed)
+# pathlib, shutil, json, argparse, numpy (installed via sentence-transformers)

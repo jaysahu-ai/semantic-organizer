@@ -1,0 +1,47 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "semantic-organizer"
+version = "0.1.0"
+description = "Automatically organize local documents into semantic folders using embeddings and clustering."
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.10"
+
+keywords = ["nlp", "embeddings", "clustering", "document", "organization", "semantic-search"]
+
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Text Processing :: Linguistic",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+
+dependencies = [
+    "sentence-transformers>=3.0.0",
+    "scikit-learn>=1.4.0",
+    "keybert>=0.8.0",
+    "PyMuPDF>=1.24.0",
+    "python-docx>=1.1.0",
+    "numpy>=1.26.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0.0",
+    "pytest-cov>=5.0.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/jaysahu-ai/semantic-organizer"
+Issues = "https://github.com/jaysahu-ai/semantic-organizer/issues"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["semantic_organizer*"]
