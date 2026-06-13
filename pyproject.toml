@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "semantic-organizer"
-version = "0.1.0"
+version = "0.1.1"
 description = "Automatically organize local documents into semantic folders using embeddings and clustering."
 readme = "README.md"
 license = "MIT"

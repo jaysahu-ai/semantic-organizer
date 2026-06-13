@@ -19,6 +19,12 @@ from semantic_organizer import organize
 organize("/path/to/my/documents")
 ```
 
+# Windows
+organize("C:\\Users\\yourname\\Documents")
+
+# or using raw string
+organize(r"C:\Users\yourname\Documents")
+
 ---
 
 ## What it does
