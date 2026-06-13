@@ -3,7 +3,6 @@
 ![Python](https://img.shields.io/badge/Python-3.10+-blue?style=flat-square)
 ![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)
 ![Offline](https://img.shields.io/badge/100%25-Offline-teal?style=flat-square)
-![Version](https://img.shields.io/badge/version-0.1.0-gray?style=flat-square)
 ![PyPI](https://img.shields.io/pypi/v/semantic-organizer?style=flat-square&color=blue)
 ![Downloads](https://img.shields.io/pypi/dm/semantic-organizer?style=flat-square&color=green)
 
@@ -18,12 +17,6 @@ from semantic_organizer import organize
 
 organize("/path/to/my/documents")
 ```
-
-# Windows
-organize("C:\\Users\\yourname\\Documents")
-
-# or using raw string
-organize(r"C:\Users\yourname\Documents")
 
 ---
 
@@ -81,6 +74,14 @@ pip install semantic-organizer
 ```
 
 Requires Python 3.10+. The embedding model (~80MB) is downloaded on first use and cached locally.
+
+**Windows users** — use double backslashes or a raw string for paths:
+
+```python
+organize("C:\\Users\\yourname\\Documents")
+# or
+organize(r"C:\Users\yourname\Documents")
+```
 
 ---
 
